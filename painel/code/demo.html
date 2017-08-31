@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>QRious Demo</title>
+    <link rel="stylesheet" href="assets/css/principal.css">
+</head>
+<body>
+<div class="qr_code">
+<main>
+    <section>
+        <img id="qrious">
+
+        <form autocomplete="off">
+            <label>
+                Valor
+                <input type="text" name="value" value="qrious" spellcheck="false">
+            </label>
+
+            <label>
+                Tamanho
+                <input type="number" name="size" placeholder="100" min="100" max="1000" value="250">
+            </label>
+
+            <label>
+                distancia
+                <input type="number" name="padding" placeholder="Auto" min="0">
+            </label>
+
+            <label>
+                complexiblilidade
+                <select name="level">
+                    <option value="L">L - 7%</option>
+                    <option value="M">M - 15%</option>
+                    <option value="Q">Q - 25%</option>
+                    <option value="H">H - 30%</option>
+                </select>
+            </label>
+
+            <label>
+                cor de fundo
+                <input type="color" name="background" value="#ffffff">
+            </label>
+
+            <label>
+                cor do code
+                <input type="number" name="backgroundAlpha" placeholder="1" min="0" max="1" step="0.1" value="1">
+            </label>
+
+            <label>
+                foreground color
+                <input type="color" name="foreground" value="#000000">
+            </label>
+
+            <label>
+                foreground alpha
+                <input type="number" name="foregroundAlpha" placeholder="1" min="0" max="1" step="0.1" value="1">
+            </label>
+        </form>
+    </section>
+</main>
+</div>
+
+<script src="assets/js/qrious.js"></script>
+<script src="assets/js/principal.js"></script>
+
+</body>
+</html>

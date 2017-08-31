@@ -1,0 +1,621 @@
+/**
+ * Created by FIQC on 10/07/2017.
+ */
+@import url("fonts/baron neue.woff");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: "bebas neue";
+    src: url(fonts/BebasNeue.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none;
+}
+
+body,
+html,
+.menu {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 0 !important;
+    max-height: 0 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    background: #00bcac;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    display: flex;
+    z-index: -10;
+    font-size: 15px;
+}
+
+#cormenu2 {
+    background: #00bcac;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    z-index: -10;
+}
+
+.menu1 {
+    background: #530090;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 -16px 26px 20px #2d2d2d99 !important;
+    -o-box-shadow: 0 -16px 26px 20px #333 !important;
+    -webkit-box-shadow: 0 -16px 26px 20px #333 !important;
+    -moz-box-shadow: 0 -16px 26px 20px #333 !important;
+}
+
+.menu1 ul {
+    float: right !important;
+    display: flex;
+    justify-content: center;
+    color: #fff !important;
+}
+
+.menu1 ul a {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 13px;
+    font-size: 12.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spmenu {
+    margin-right: 20px;
+    padding: 0 0;
+    letter-spacing: 1.5px;
+}
+
+#email {
+    background: url(../img/icons/e-mail.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: 100% 100%;
+}
+
+#phone {
+    background: url(../img/icons/phone.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: 100% 100%;
+}
+
+#face {
+    background: url(../img/icons/face.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+    background-size: 100% 100%;
+}
+
+#insta {
+    background: url(../img/icons/insta.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+    background-size: 100% 100%;
+}
+
+#tube {
+    background: url(../img/icons/tube.png) no-repeat;
+    width: 30px;
+    height: 30px;
+
+    background-size: 100% 100%;
+}
+
+#logo {
+    background: url(../img/logo/logopi.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1vh;
+    width: 25vh;
+    height: 26vh;
+    z-index: 100;
+}
+
+#logo {
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#logo {
+    animation-delay: 0.2s;
+}
+
+span:nth-child(2) {
+    animation-delay: 2.75s;
+}
+
+span:nth-child(3) {
+    animation-delay: 3s;
+}
+
+span:nth-child(4) {
+    animation-delay: 3.15s;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) translate3d(0, 0, 0);
+    }
+    50% {
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+    80% {
+        opacity: 1;
+        transform: scale(0.89);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translate3d(0, 0, 0);
+    }
+}
+
+.menu2 {
+    background: none;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    z-index: 100;
+}
+
+.menu2 ul {
+    float: right !important;
+    display: flex;
+    justify-content: center;
+    height: 95px;
+    background: none;
+}
+
+.menu2 ul a {
+    display: block;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 15.8px;
+    font-family: "Baron Neue" !important;
+    height: 23px;
+    top: 35px;
+    color: #fff;
+}
+
+.spmenu2 {
+    margin-left: 34px;
+    padding: 0 0;
+    letter-spacing: 0;
+}
+
+.menu2 ul a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#active {
+    background: none;
+    top: 0;
+}
+
+.menu2 ul a .active {
+    text-decoration: none;
+    background: #000000;
+    border: 2px solid #000;
+    color: #333;
+}
+
+.active {
+    text-decoration: none !important;
+    background: #530090 !important;
+    border-top: 35px solid #530090 !important;
+    border-bottom: 60px solid #530090 !important;
+    border-right: 15px solid #530090 !important;
+    border-left: 15px solid #530090 !important;
+    color: #fe5a56 !important;
+    cursor: not-allowed !important;
+    box-shadow: 0 5px 6px 0px #2d2d2d66;
+    -o-box-shadow: 0 5px 6px 0px rgba(51, 51, 51, 0.52);
+    -webkit-box-shadow: 0 5px 6px 0px rgba(51, 51, 51, 0.52);
+    -moz-box-shadow: 0 5px 6px 0px rgba(51, 51, 51, 0.52);
+}
+
+.menu2 ul a:hover {
+    display: block;
+    text-decoration: none;
+    background: none;
+    position: relative;
+    border-bottom: 3px solid #ffdc00;
+    color: #ffdc00;
+}
+
+.container {
+    background: none;
+    position: absolute;
+    width: 60vw;
+    height: 65px;
+    left: 19vw;
+}
+
+#baixo {
+    background: #000;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 170vh;
+}
+
+#infos {
+    position: absolute;
+    background: #ababab;
+    width: 100%;
+    height: 40vh;
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2200px) {
+    .spmenu2 {
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+    .spmenu2 {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .spmenu2 {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .spmenu2 {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .spmenu2 {
+        margin-left: 35px;
+    }
+}
+
+/*
+####################################
+######### 1900px - 2200px ##########
+####################################
+ */
+
+@media only screen and (min-width: 1900px) and (max-width: 2200px) {
+    #clock {
+        top: 100vh !important;
+        height: 60vh !important;
+    }
+}
+
+/*
+####################################
+######### 1600px - 1900px ##########
+####################################
+ */
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+    .spmenu {
+        margin-left: 25px;
+    }
+}
+
+/*
+####################################
+######### 1300px - 1599px ##########
+####################################
+ */
+
+@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+    .spmenu {
+        margin-left: -3px;
+        font-size: 11px !important;
+        margin-right: 11px;
+        padding: 0 0;
+        letter-spacing: .8px;
+    }
+
+    .spmenu2 {
+        margin-left: 14px;
+        font-size: 13px !important;
+    }
+
+    #face {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+
+    #insta {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+
+    #tube {
+        width: 22px;
+        height: 22px;
+    }
+
+    #phone {
+        width: 15px;
+        height: 15px;
+    }
+
+    #logo {
+        width: 226px;
+        height: 234px;
+    }
+
+    #email {
+        width: 15px;
+        height: 15px;
+    }
+
+    .menu1 {
+        width: 100%;
+        height: 40px;
+    }
+
+    .menu1 ul a {
+        top: 8px;
+    }
+
+    #cormenu2 {
+        width: 100%;
+        height: 120px;
+    }
+
+    .menu2 ul a {
+        top: 8px;
+    }
+
+    #active {
+        top: -20px;
+        border-top: 28px solid #530090 !important;
+        border-bottom: 55px solid #530090 !important;
+        border-right: 10px solid #530090 !important;
+        border-left: 10px solid #530090 !important;
+    }
+}
+
+/*
+####################################
+######### 1000px - 1299px ##########
+####################################
+ */
+
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+    .spmenu {
+        margin-left: 1px;
+        font-size: 11px !important;
+        margin-right: 10px;
+        padding: 0 0;
+        letter-spacing: 0.5px;
+    }
+}
+
+input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+input#control-nav {
+    display: block;
+
+}
+
+input#control-nav:focus ~ .control-nav {
+    border-color: #000;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
+}
+
+input#control-nav:focus ~ .control-nav:before {
+    background: #000;
+}
+
+input#control-nav:checked ~ nav,
+input#control-nav:checked ~ .control-nav-close {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+/**
+ * @media do menu hamburguer.
+ */
+
+@media screen and (max-width: 1150px) {
+    header nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 250px;
+        border-left: 1px solid #ccc;
+        background: #fff;
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    header ul.list-auto {
+        padding: 0;
+    }
+
+    header ul.list-auto li {
+        width: 100%;
+        border: solid #ccc;
+        border-width: 0 0 1px;
+    }
+
+    header a {
+        padding: 15px 10px;
+    }
+
+    header a:hover {
+        background-color: #ccc;
+    }
+
+    .control-nav { /* label icon */
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid #333;
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #333;
+    }
+
+    .control-nav-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    @media screen and (max-width: 1200px) {
+        header .control-nav {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            display: block;
+            width: 30px;
+            padding: 5px 0;
+            border: solid #00bcac;
+            border-width: 3px 0;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        header .control-nav:before {
+            content: "";
+            display: block;
+            height: 3px;
+            background: #333;
+        }
+
+        header .control-nav-close {
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.4);
+            -webkit-transition: all 500ms cubic-bezier(.45, .05, .55, .95);
+            transition: all 500ms cubic-bezier(.45, .05, .55, .95);
+            -webkit-transform: translate(100%, 0);
+            -ms-transform: translate(100%, 0);
+            transform: translate(100%, 0);
+        }
+
+        header nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 250px;
+            border-left: 1px solid #ccc;
+            background: #aba9a9;
+            overflow-x: auto;
+            z-index: 2;
+            -webkit-transition: all 500ms ease;
+            transition: all 500ms ease;
+            -webkit-transform: translate(100%, 0);
+            -ms-transform: translate(100%, 0);
+            transform: translate(100%, 0);
+        }
+    }
+
+    #control-nav:checked ~ .control-nav-close {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    #control-nav:checked ~ nav {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+/**
+ * @media do tamanho e responsividade do menu.
+ */
+
+
+
+
+
+
+
+

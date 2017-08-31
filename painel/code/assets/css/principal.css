@@ -1,0 +1,60 @@
+.qr_code {
+
+}
+html {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #787878;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+main {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main section {
+    min-width: 250px;
+    max-width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+main img {
+    box-shadow: 0 0 10px 5px #666;
+}
+
+main form {
+    padding: 25px 0 50px 0;
+    text-align: left;
+}
+
+main form label {
+    display: block;
+    margin-top: 10px;
+    color: #444;
+    font-weight: bold;
+}
+
+main form input,
+main form select {
+    width: 100%;
+}
+
+main form input:invalid {
+    outline: 2px solid #f00;
+    color: #f00;
+}

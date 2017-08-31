@@ -1,0 +1,194 @@
+/**
+ * Created by Vinny on 19/07/2017.
+ */
+
+.tudo {
+    position: absolute;
+    top: 160vh;
+    width: 100%;
+}
+
+.divsepara {
+    background: #333;
+    height: 60px;
+}
+
+.divsepara ul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    font-family: 'roboto', sans-serif;
+}
+
+.divsepara ul li {
+    display: flex;
+    list-style: none;
+    padding: 0.6em 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+}
+
+#produzimos {
+    background: #7D7D7C;
+    width: 100%;
+    max-width: 100% !important;
+    height: 74vh;
+    position: absolute;
+}
+
+.tudo2 {
+    position: absolute;
+    top: 231vh;
+    width: 100%;
+}
+
+.divsepara2 {
+    background: #333;
+    width: 100%;
+    height: 60px;
+}
+
+.divsepara2 ul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    font-family: 'roboto', sans-serif;
+}
+
+.divsepara2 ul li {
+    display: flex;
+    list-style: none;
+    padding: 0.6em 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#sabia {
+    background: url(../img/bg/bg-equipe-home.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 74vh;
+    position: absolute;
+}
+
+.titulo_sabia {
+    background: #530090;
+    color: rgb(246, 229, 43);
+    width: 50%;
+    height: 60px;
+    position: relative;
+    top: 30px;
+}
+
+.sabia-sobre {
+    background: #f6e52b;
+    display: inline-block;
+    zoom: 1;
+    margin-top: 2em;
+    padding: .6em;
+    color: #0f3944;
+    border: #cbba2a solid 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'bebas', sans-serif !important;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-property: background-color, color;
+    transition-property: background-color, color;
+    width: 36%;
+}
+
+.sabia-equipe {
+    background: #f6e52b;
+    display: inline-block;
+    zoom: 1;
+    margin-top: 2em;
+    padding: .6em;
+    color: #0f3944;
+    border: #cbba2a solid 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'bebas', sans-serif !important;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-property: background-color, color;
+    transition-property: background-color, color;
+    width: 36%;
+}
+
+.tudo3 {
+    position: absolute;
+    top: 305vh;
+    width: 100%;
+}
+
+.divsepara3 {
+    background: #333;
+    width: 100%;
+    height: 60px;
+}
+
+.divsepara3 ul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    font-family: 'roboto', sans-serif;
+}
+
+.divsepara3 ul li {
+    display: flex;
+    list-style: none;
+    padding: 0.6em 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#depoimentos {
+    background: #7D7D7C;
+    width: 100%;
+    height: 74vh;
+    position: absolute;
+}
+
+.tudo4 {
+    position: absolute;
+    top: 379vh;
+    width: 100%;
+}
+
+.divsepara4 {
+    background: #333;
+    width: 100%;
+    height: 60px;
+}
+
+.divsepara4 ul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    font-family: 'roboto', sans-serif;
+}
+
+.divsepara4 ul li {
+    display: flex;
+    list-style: none;
+    padding: 0.6em 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#cultura {
+    background: #D3D3D3;
+    width: 100%;
+    height: 74vh;
+    position: absolute;
+}

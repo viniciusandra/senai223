@@ -1,0 +1,40 @@
+.editor.btn-toolbar {
+zoom: 1;
+background: #F7F7F7;
+margin: 5px 2px;
+padding: 3px 0;
+border: 1px solid #EFEFEF;
+}
+.editor-wrapper {
+    min-height: 250px;
+    background-color: #fff;
+    border-collapse: separate;
+    border: 1px solid #ccc;
+    padding: 4px;
+    box-sizing: content-box;
+    box-shadow: rgba(0,0,0,.07451) 0 1px 1px 0 inset;
+    overflow: scroll;
+    outline: 0;
+    border-radius: 3px;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.x_title {
+    border-bottom: 2px solid #E6E9ED;
+    padding: 1px 5px 6px;
+}
+.x_panel, .x_title {
+    margin-bottom: 10px;
+}
+.ln_solid {
+    border-top: 1px solid #e5e5e5;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    margin: 20px 0;

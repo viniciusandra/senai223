@@ -1,0 +1,105 @@
+/**
+ * Created by FIQC on 10/07/2017.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+
+}
+
+.accordian {
+    width: 100%;
+    height: 71vh;
+    overflow: hidden;
+
+}
+
+.accordian ul {
+    width: 100%;
+    display: flex;
+}
+
+#img1 {
+    background: #ed4b7f;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+}
+
+#img2 {
+    background: #c43e69;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+}
+
+#img3 {
+    background: #aa3658;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+}
+
+#img4 {
+    background: #852a42;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+}
+
+.accordian li {
+    position: relative;
+    display: block;
+    width: 25%;
+    float: left;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+
+}
+
+.accordian ul:hover li {
+    width: -100% !important;
+}
+
+.accordian ul li:hover {
+    width: 70000% !important;
+}
+
+.accordian li {
+    display: block;
+}
+
+.image_title {
+    background: rgba(18, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 25vw;
+    height: 71vh;
+
+}
+
+.image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.seq_acordian_1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 40px !important;
+}
